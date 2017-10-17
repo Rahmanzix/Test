@@ -26,7 +26,7 @@ function citysoul_get_info_card() {
     <?php endwhile; ?>
     </ul>
 <?php  
-//die();
+die();
 }
 
 
