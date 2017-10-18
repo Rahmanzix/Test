@@ -35,7 +35,7 @@ die();
  * citysoul_create_membership
  */
 
-//add_action('wp_ajax_citysoul_create_membership', 'citysoul_create_membership');
+add_action('wp_ajax_citysoul_create_membership', 'citysoul_create_membership');
 
 function citysoul_create_membership() {
     $data = !empty($_REQUEST['form_data']) ? $_REQUEST['form_data'] : 0 ;
