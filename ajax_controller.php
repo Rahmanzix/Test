@@ -7,6 +7,7 @@
  */
 add_action( 'wp_ajax_citysoul_get_info_card', 'citysoul_get_info_card' );
 function citysoul_get_info_card() {
+	echo 'test';
     $card_id = isset($_REQUEST['card_id']) ? $_REQUEST['card_id'] : 0;
     if( have_rows('card_contacts', $card_id) );
     if(have_rows('card_limitation', $card_id));
